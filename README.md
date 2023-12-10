@@ -71,7 +71,7 @@ php artisan db:seed --class=BookSeeder
 php artisan db:seed --class=RatingSeeder
 ```
 
-Note: This command will seed the database with initial data. If users encounter issues with the seeding process due to a large amount of fake data, they can adjust the seed request quantity for each seeder in their respective seeder files.
+Note: This command will seed the database with initial data. If users encounter issues with the seeding process due to a large amount of fake data, they can adjust the seed request quantity for each seeder in their respective seeder files. Execute each seeder sequentially, starting with AuthorSeeder, followed by BookCategorySeeder, BookSeeder, and RatingSeeder. This is done because each database table has its own corresponding relationships (foreign keys).
 
 Serve the project:
 
