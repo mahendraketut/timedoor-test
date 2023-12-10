@@ -15,13 +15,13 @@ John Doe, our client, owns a bookstore business. His primary revenue streams com
 Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/your-project.git <-- ganti
+https://github.com/mahendraketut/timedoor-test
 ```
 
 Navigate to Project Directory:
 
 ```bash
-cd your-project <-- ganti
+cd timedoor-test
 ```
 
 Install Dependencies:
